@@ -49,4 +49,6 @@ public interface UserMapper {
 
     // 修改用户密码
     public void updateUserPassword(User user);
+    
+     public void updateUserPassword2(User user);
 }
